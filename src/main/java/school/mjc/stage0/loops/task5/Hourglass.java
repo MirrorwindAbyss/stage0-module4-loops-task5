@@ -1,7 +1,7 @@
 package school.mjc.stage0.loops.task5;
 
 public class Hourglass {
-    public void printHourglass(int height) {
+    public void printHourglassOfGivenSize(int height) {
         // Print the top half of the hourglass
         for (int i = height; i >= 1; i--) {
             for (int j = height - i; j > 0; j--) {
@@ -23,10 +23,5 @@ public class Hourglass {
             }
             System.out.println();
         }
-    }
-
-    public static void main(String[] args) {
-        Hourglass hourglass = new Hourglass();
-        hourglass.printHourglass(5); // Change the side length here
     }
 }

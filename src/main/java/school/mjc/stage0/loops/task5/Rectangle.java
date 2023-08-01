@@ -13,10 +13,4 @@ public class Rectangle {
             System.out.println();
         }
     }
-
-
-    public static void main(String[] args) {
-        Rectangle r = new Rectangle();
-        r.printRectangleFrom8s(3, 4);
-    }
 }
